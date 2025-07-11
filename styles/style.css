@@ -73,3 +73,28 @@ font-weight: 400;
 .action-contenar img{
     border-radius: 2rem;
 }
+.productive_user{
+    width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px;
+    border-radius: 24px;
+    text-align: center;
+}
+.productive_user-contenar{
+    display: flex;
+    justify-content: space-around;
+}
+.productive_user h1{
+font-size: 38px;
+font-weight: 700;
+}
+.productive_user-contenar h1{
+font-size: 80px;
+font-weight: 800;
+color: blue;
+margin: 0 auto;
+}
+.productive_user-contenar p{
+    color: rgba(37, 36, 50, 0.5);
+}
