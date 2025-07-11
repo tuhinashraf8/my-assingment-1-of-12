@@ -1,3 +1,8 @@
+
+*{
+    margin: 0;
+}
+
 button {
     background-color: blue;
     color: white;
@@ -7,18 +12,15 @@ button {
 button:hover{
     background-color: rgb(132, 0, 255);
 }
-*{
-    margin: 0;
-}
+
 
 
 
 
 
 .banner-contenar{
-    background-image: url(/B12A01-landing-launchpad-main/Assets/Hero-bg.png);
+    background-image: url(../B12A01-landing-launchpad-main/Assets/Hero-bg.png);
     height: 698px;
-    /* position: absolute; */
     width: 100%;
     margin-top: 0;
     padding-top: 2rem;
@@ -34,22 +36,22 @@ button:hover{
     
 }
 .nav a {
-color: blue;
-font-size: 34px;
-font-weight: 900;
-text-decoration: none;
+    color: blue;
+    font-size: 34px;
+    font-weight: 900;
+    text-decoration: none;
 }
 .banner-text{
     width: 905px;
-height: 152px;
-text-align: center;
-margin: 9em auto;
+    height: 152px;
+    text-align: center;
+    margin: 9em auto;
 }
 
 .banner-text h1{
     font-size: 65px;
-font-weight: 700;
-margin-bottom: 3rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
 }
 .action-contenar{
     
@@ -70,14 +72,14 @@ margin-bottom: 3rem;
 }
 .action-contenar-left-side h1{
     font-size: 42px;
-font-weight: 700;
-margin-bottom: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
 }
 .action-contenar-left-side p{
-color: rgba(37, 36, 50, 0.5);
-font-size: 24px;
-font-weight: 400;
-margin-bottom: 1.5rem;
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
 }
 .action-contenar img{
     border-radius: 2rem;
@@ -95,14 +97,14 @@ margin-bottom: 1.5rem;
     justify-content: space-around;
 }
 .productive_user h1{
-font-size: 38px;
-font-weight: 700;
+    font-size: 38px;
+    font-weight: 700;
 }
 .productive_user-contenar h1{
-font-size: 80px;
-font-weight: 800;
-color: blue;
-margin: 0 auto;
+    font-size: 80px;
+    font-weight: 800;
+    color: blue;
+    margin: 0 auto;
 }
 .productive_user-contenar p{
     color: rgba(37, 36, 50, 0.5);
@@ -117,7 +119,7 @@ margin: 0 auto;
 }
 .Touch-Section h1{
     font-size: 120px;
-font-weight: 800;
+    font-weight: 800;
 }
 .Touch-input{
     display: flex;
@@ -146,13 +148,13 @@ font-weight: 800;
 }
 .footer-section h1{
     font-size: 100px;
-font-weight: 900;
-color: blue;
-padding: 1rem;
+    font-weight: 900;
+    color: blue;
+    padding: 1rem;
 }
 .footer-section p{
     padding: 1rem;
-color: rgb(137, 135, 161);
+    color: rgb(137, 135, 161);
 }
 .footer-section a{
     text-decoration: none;
@@ -160,19 +162,15 @@ color: rgb(137, 135, 161);
     color: rgb(137, 135, 161);
 }
 .Challenge-part{
-      width: 1140px;
+    width: 1140px;
     margin: 0 auto;
     padding: 50px;
- 
-    
 }
 .Challenge-part-hidding{
-font-size: 42px;
-font-weight: 700;
-text-align: center;
- padding: 50px;
-
-
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    padding: 50px;
 }
 .card-contenar{
     display: flex;
@@ -181,10 +179,29 @@ text-align: center;
 .card{
     background-color: rgb(203, 219, 235);
     width: 320px;
-height: 200px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 1rem;
-border-radius: 1rem;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.optional-section{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+    align-items: center;
+}
+
+.optional-section h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.optional-section img{
+    border-radius: 1rem;
 }
