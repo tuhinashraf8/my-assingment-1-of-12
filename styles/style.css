@@ -1,0 +1,45 @@
+button{
+    background-color: blue;
+    color: white;
+    padding: 1em 2rem;
+    border-radius: 1rem;
+}
+
+
+
+
+
+
+.banner-contenar{
+    background-image: url(/B12A01-landing-launchpad-main/Assets/Hero-bg.png);
+    height: 698px;
+    position: absolute;
+    width: 100%;
+}
+.banner{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+    
+}
+.nav a {
+color: blue;
+font-size: 34px;
+font-weight: 900;
+text-decoration: none;
+}
+.banner-text{
+    width: 905px;
+height: 152px;
+text-align: center;
+margin: 9em auto;
+}
+
+.banner-text h1{
+    font-size: 65px;
+font-weight: 700;
+}
