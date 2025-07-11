@@ -4,7 +4,9 @@ button{
     padding: 1em 2rem;
     border-radius: 1rem;
 }
-
+*{
+    margin: 0;
+}
 
 
 
@@ -15,6 +17,7 @@ button{
     height: 698px;
     position: absolute;
     width: 100%;
+    margin-top: 0;
 }
 .banner{
     width: 1140px;
@@ -48,7 +51,7 @@ font-weight: 700;
     width: 1140px;
     margin: 0 auto;
     margin-top: 450px;
-    margin-bottom: 450px;
+    margin-bottom:100px;
     display: flex;
     align-items: center;
     border-radius: 1rem;
@@ -97,4 +100,33 @@ margin: 0 auto;
 }
 .productive_user-contenar p{
     color: rgba(37, 36, 50, 0.5);
+}
+.Touch-Section{
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Touch-Section h1{
+    font-size: 120px;
+font-weight: 800;
+}
+.Touch-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    
+}
+.Touch-input input{
+    margin-top:0;
+    padding: 1rem;
+    width: 22rem;
+    border-radius: 1rem;
+    
+}
+#input-massage{
+    padding-bottom: 60px;
 }
