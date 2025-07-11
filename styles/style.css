@@ -15,9 +15,10 @@ button{
 .banner-contenar{
     background-image: url(/B12A01-landing-launchpad-main/Assets/Hero-bg.png);
     height: 698px;
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     margin-top: 0;
+    padding-top: 2rem;
 }
 .banner{
     width: 1140px;
@@ -45,12 +46,13 @@ margin: 9em auto;
 .banner-text h1{
     font-size: 65px;
 font-weight: 700;
+margin-bottom: 3rem;
 }
 .action-contenar{
     
     width: 1140px;
     margin: 0 auto;
-    margin-top: 450px;
+    margin-top: 100px;
     margin-bottom:100px;
     display: flex;
     align-items: center;
@@ -59,19 +61,20 @@ font-weight: 700;
 }
 .action-contenar-left-side{
     width: 517px;
-    display: flex;
-    flex-direction: column;
+ 
   
     
 }
 .action-contenar-left-side h1{
     font-size: 42px;
 font-weight: 700;
+margin-bottom: 1.5rem;
 }
 .action-contenar-left-side p{
 color: rgba(37, 36, 50, 0.5);
 font-size: 24px;
 font-weight: 400;
+margin-bottom: 1.5rem;
 }
 .action-contenar img{
     border-radius: 2rem;
@@ -129,4 +132,27 @@ font-weight: 800;
 }
 #input-massage{
     padding-bottom: 60px;
+}
+.footer-section{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+    width: 531px;
+    height: 177px;
+}
+.footer-section h1{
+    font-size: 100px;
+font-weight: 900;
+color: blue;
+padding: 1rem;
+}
+.footer-section p{
+    padding: 1rem;
+color: rgb(137, 135, 161);
+}
+.footer-section a{
+    text-decoration: none;
+    padding: 1rem;
+    color: rgb(137, 135, 161);
 }
