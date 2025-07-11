@@ -1,8 +1,11 @@
-button{
+button {
     background-color: blue;
     color: white;
     padding: 1em 2rem;
     border-radius: 1rem;
+}
+button:hover{
+    background-color: rgb(132, 0, 255);
 }
 *{
     margin: 0;
@@ -155,4 +158,33 @@ color: rgb(137, 135, 161);
     text-decoration: none;
     padding: 1rem;
     color: rgb(137, 135, 161);
+}
+.Challenge-part{
+      width: 1140px;
+    margin: 0 auto;
+    padding: 50px;
+ 
+    
+}
+.Challenge-part-hidding{
+font-size: 42px;
+font-weight: 700;
+text-align: center;
+ padding: 50px;
+
+
+}
+.card-contenar{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: rgb(203, 219, 235);
+    width: 320px;
+height: 200px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding: 1rem;
+border-radius: 1rem;
 }
