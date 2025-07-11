@@ -43,3 +43,33 @@ margin: 9em auto;
     font-size: 65px;
 font-weight: 700;
 }
+.action-contenar{
+    
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 450px;
+    margin-bottom: 450px;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+.action-contenar-left-side{
+    width: 517px;
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+.action-contenar-left-side h1{
+    font-size: 42px;
+font-weight: 700;
+}
+.action-contenar-left-side p{
+color: rgba(37, 36, 50, 0.5);
+font-size: 24px;
+font-weight: 400;
+}
+.action-contenar img{
+    border-radius: 2rem;
+}
